@@ -1,1 +1,1 @@
-/data/data/com.termux/files/home/scripts/.bashrc
+/data/data/com.termux/files/home/scripts/bashrc
