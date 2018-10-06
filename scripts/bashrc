@@ -1,6 +1,7 @@
 
-mp3dl () {
+mp3dl(){
 	youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/storage/external-1/youtube/%(title)s.%(ext)s' "$1"
 }
 
 alias mmm=mp3dl
+alias gitup='git fetch origin && git checkout origin/master'
